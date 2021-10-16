@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Slider</title>
+</head>
+
+<body>
+
+  <video autoplay loop muted id="ricardo">
+    <source src="video.mp4">
+  </video>
+
+  <div class="carousel">
+    <div class="carouselContainer">
+      <img class="slide" src="images/1.jpg" alt="slide1">
+      <img class="slide" src="images/2.jpg" alt="slide2">
+      <img class="slide" src="images/3.jpg" alt="slide3">
+      <img class="slide" src="images/4.jpg" alt="slide4">
+    </div>
+    <div class="bullets">
+      <div class="bulletHole" id="bullet0"><div></div></div>
+      <div class="bulletHole" id="bullet1"><div></div></div>
+      <div class="bulletHole" id="bullet2"><div></div></div>
+      <div class="bulletHole" id="bullet3"><div></div></div>
+    </div>
+
+    <div class="description">
+      <div class="descriptionContainer">
+      <div>Ass We Can</div>
+      <div>But Even If We Can't</div>
+      <div>We'll Try Our Best</div>
+      <div>To Flex To The Dire End</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
